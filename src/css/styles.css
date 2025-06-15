@@ -61,14 +61,16 @@ button[type="submit"]:hover {
 }
 
 .loader {
-  margin-top: 20px;
   font-size: 18px;
   color: #555;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .hidden {
   display: none;
 }
+
 
 .gallery {
   display: grid;

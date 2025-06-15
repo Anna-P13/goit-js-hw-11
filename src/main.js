@@ -20,7 +20,7 @@ formEl.addEventListener('submit', async event => {
     if (!data.hits.length) {
       iziToast.error({
         message: 'Sorry, there are no images matching your search query. Please try again!',
-        position: 'topRight',
+        position: 'bottomRight',
       });
     } else {
       createGallery(data.hits);
@@ -28,7 +28,7 @@ formEl.addEventListener('submit', async event => {
   } catch (error) {
     iziToast.error({
       message: 'Something went wrong. Please try again later.',
-      position: 'topRight',
+      position: 'bottomRight',
     });
   } finally {
     hideLoader();

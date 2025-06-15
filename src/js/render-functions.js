@@ -3,6 +3,8 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryEl = document.querySelector('.gallery');
 const loaderEl = document.querySelector('.loader');
+console.log('loaderEl:', loaderEl);
+
 
 const lightbox = new SimpleLightbox('.gallery a');
 
